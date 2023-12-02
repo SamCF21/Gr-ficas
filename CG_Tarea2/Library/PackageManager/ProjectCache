@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638343751753685314
-    m_Hash: 1646665576
+      ticks: 638370833279003755
+    m_Hash: 105689471
   m_LockFileStatus:
     m_FilePath: C:/Users/samyc/Documents/repos/TC2008B/Gr-ficas/CG_Tarea2/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638343753054580018
-    m_Hash: 4179402546
+      ticks: 638370833279003755
+    m_Hash: 2446244939
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -3128,6 +3128,7 @@ m_ResolvedPackages:
     - 1.3.8
     - 1.3.9
     - 1.4.0
+    - 1.4.1
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -3144,6 +3145,7 @@ m_ResolvedPackages:
     - 1.3.8
     - 1.3.9
     - 1.4.0
+    - 1.4.1
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12

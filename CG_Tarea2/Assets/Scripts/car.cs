@@ -59,7 +59,7 @@ public class car : MonoBehaviour
         
         if (speed.x != 0)
         {   //Create a matrix to rotate the car
-            float angle = Mathf.Atan2(-speed.x, speed.z) * Mathf.Rad2Deg;
+            float angle = speed.x * Time.time * 10;
             Matrix4x4 rotateMatrix = HW_Transforms.RotateMat(angle, AXIS.Y);
             return moveMatrix * rotateMatrix;
         }
@@ -91,6 +91,7 @@ public class car : MonoBehaviour
         //Apply the transformation to the mesh of the car
         mesh.vertices = newVerticesCar;
         mesh.RecalculateNormals();
+        mesh.RecalculateBounds();
     }
 
     void ApplyWheelTransform(Matrix4x4 moveWheels, int wheelPos)
@@ -104,6 +105,7 @@ public class car : MonoBehaviour
         //Apply the transformation to the mesh of the wheels
         meshWheel[wheelPos].vertices = newVerticesWheel[wheelPos];
         meshWheel[wheelPos].RecalculateNormals();
+        meshWheel[wheelPos].RecalculateBounds();
     }
 }
 
