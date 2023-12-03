@@ -1,3 +1,10 @@
+/*
+Samantha Covarrubias - A01026174
+CG_2 
+
+Simulate Car Movement in a 3D Space in unity
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
